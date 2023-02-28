@@ -7,21 +7,21 @@ body{
 nav{
     background-color: white;
     margin: 0%;
+    width: 100%;
+}
+
+#logo{
+    width: 60px;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 #title{
     font-size: 3em;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    margin-top: 13px;
+    vertical-align: middle;
 }
-
-#logo{
-    width: 60px;
-    padding: 10px;
-}
-
 
 /* HEADER */
 
