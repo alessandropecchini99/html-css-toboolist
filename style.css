@@ -41,101 +41,104 @@ header{
     border-radius: 10px;
 }
 
-.button{
-    padding: 7px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 3px;
-}
+    /* BUTTON */
 
-.task{
-    background-color: #48ADF1;
-    color: white;
-    border: 2px solid #48ADF1;
-    margin-left: 50px;
-}
-
-.section{
-    background-color: white;
-    color: rgb(191, 191, 191);
-    border: 2px solid rgb(191, 191, 191);
-}
-
-hr{
-    border: 1px solid rgb(245, 245, 245);
-}
-
-    /* ETICHETTE */
-
-    .spazio{
-        padding-bottom: 25px;
+    .button{
+        padding: 7px;
+        border-radius: 5px;
+        margin-top: 13px;
+        margin-bottom: 13px;
     }
 
-    h2{
-        margin-left: 45px;
-        margin-bottom: 10px;
-        margin-top: 35px;
-        font-family: 'Open Sans', sans-serif;
-        color: #444851;
-    }
-
-    .plist{
-        margin-left: 45px;
-        margin-top: 10px;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    .check{
-        color: rgb(1, 184, 1);
-        border: 1px solid rgb(1, 184, 1);
-        border-radius: 100%;
-        padding: 0px 3px 0px 3px;
-        font-size: 13px;
-    }
-
-    .cross{
-        color: red;
-        border: 1px solid red;
-        border-radius: 100%;
-        padding: 0px 3px 0px 3px;
-        font-size: 13px;
-    }
-
-    .etichetta{
-        font-size: 11px;
-        font-family: 'Open Sans', sans-serif;
-        border: 1px solid;
-        border-radius: 10px;
-        padding: 6px 8px;
+    .task{
+        background-color: #48ADF1;
         color: white;
+        border: 2px solid #48ADF1;
+        margin-left: 50px;
     }
 
-    .editorial{
-        background-color: #45ABEA;
-        border: #45ABEA;
+    .section{
+        background-color: white;
+        color: rgb(191, 191, 191);
+        border: 2px solid rgb(191, 191, 191);
     }
 
-    .Q1{
-        background-color: #9C72E4;
-        border: #9C72E4;
+    hr{
+        border: 1px solid rgb(245, 245, 245);
+        margin: 0%;
     }
 
-    .recruiting{
-        background-color: #60BEA7;
-        border: #60BEA7;
-    }
+        /* ETICHETTE */
 
-    .mobile{
-        background-color: #F29E33;
-        border: #F29E33;
-    }
+        .spazio{
+            padding-bottom: 25px;
+        }
 
-    .website{
-        background-color: #D763A1;
-        border: #D763A1;
-    }
+        h2{
+            margin-left: 45px;
+            margin-bottom: 10px;
+            margin-top: 35px;
+            font-family: 'Open Sans', sans-serif;
+            color: #444851;
+        }
 
-    .sales{
-        background-color: #B0C925;
-        border: #B0C925;
-    }
+        .plist{
+            margin-left: 45px;
+            padding-top: 8px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .check{
+            color: rgb(1, 184, 1);
+            border: 1px solid rgb(1, 184, 1);
+            border-radius: 100%;
+            padding: 0px 3px 0px 3px;
+            font-size: 13px;
+        }
+
+        .cross{
+            color: red;
+            border: 1px solid red;
+            border-radius: 100%;
+            padding: 0px 4px 0px 4px;
+            font-size: 13px;
+        }
+
+        .etichetta{
+            font-size: 11px;
+            font-family: 'Open Sans', sans-serif;
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 6px 8px;
+            color: white;
+        }
+
+        .editorial{
+            background-color: #45ABEA;
+            border: #45ABEA;
+        }
+
+        .Q1{
+            background-color: #9C72E4;
+            border: #9C72E4;
+        }
+
+        .recruiting{
+            background-color: #60BEA7;
+            border: #60BEA7;
+        }
+
+        .mobile{
+            background-color: #F29E33;
+            border: #F29E33;
+        }
+
+        .website{
+            background-color: #D763A1;
+            border: #D763A1;
+        }
+
+        .sales{
+            background-color: #B0C925;
+            border: #B0C925;
+        }
