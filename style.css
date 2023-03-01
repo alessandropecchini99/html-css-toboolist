@@ -9,8 +9,8 @@ hr{
 }
 
 
-/* NAV */
-nav{
+/* HEADER */
+header{
     background-color: white;
     margin: 0%;
     width: 100%;
@@ -30,19 +30,19 @@ nav{
 }
 
 
-/* HEADER */
+/* MAIN */
 
 .main-conteiner{
     width: 100%;
 }
 
 .conteiner{
-    width: 71%;
+    width: 70%;
     height: 30px;
     margin: auto;
 }
 
-header{
+main{
     background-color: white;
     margin-top: 50px;
     border-radius: 10px;
@@ -74,8 +74,8 @@ header{
         /* ETICHETTE */
 
         h2{
-            margin-top: 35px;
-            margin-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: -5px;
             font-family: 'Open Sans', sans-serif;
             color: #444851;
         }
@@ -83,6 +83,7 @@ header{
         ul {
             list-style-type: none;
             margin-inline: 10px;
+            margin-top: 0px;
             padding-bottom: 25px;
           }
 
