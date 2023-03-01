@@ -17,8 +17,8 @@ header{
 }
 
 #logo{
-    width: 60px;
-    padding: 15px;
+    width: 55px;
+    padding: 15px 0px 15px 15px;
     vertical-align: middle;
 }
 
@@ -60,14 +60,14 @@ header{
         .buttontask{
             background-color: #48ADF1;
             color: white;
-            border: 2px solid #48ADF1;
+            border: 1px solid #48ADF1;
             margin-left: 50px;
         }
 
         .buttonsection{
             background-color: white;
             color: rgb(210, 210, 210);
-            border: 2px solid rgb(210, 210, 210);
+            border: 1px solid rgb(210, 210, 210);
         }
 
 
@@ -86,8 +86,8 @@ header{
             }
 
             h2{
-                margin-top: 25px;
-                margin-bottom: 5px;
+                margin-top: 30px;
+                margin-bottom: 2px;
                 font-family: 'Open Sans', sans-serif;
                 color: #444851;
             }
@@ -127,7 +127,7 @@ header{
 
                 .etichetta{
                     display: inline-block;
-                    font-size: 11px;
+                    font-size: 10px;
                     font-family: 'Open Sans', sans-serif;
                     border: 1px solid;
                     border-radius: 10px;
