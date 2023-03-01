@@ -18,7 +18,7 @@ header{
 
 #logo{
     width: 60px;
-    padding: 10px;
+    padding: 15px;
     vertical-align: middle;
 }
 
@@ -30,119 +30,137 @@ header{
 }
 
 
-/* MAIN */
+    /* MAIN */
 
-.main-conteiner{
-    width: 100%;
-}
-
-.conteiner{
-    width: 70%;
-    height: 30px;
-    margin: auto;
-}
-
-main{
-    background-color: white;
-    margin-top: 50px;
-    border-radius: 10px;
-}
-
-    /* BUTTON */
-
-    .button{
-        padding: 7px;
-        border-radius: 5px;
-        margin-top: 13px;
-        margin-bottom: 13px;
+    .main-conteiner{
+        width: 100%;
     }
 
-    .buttontask{
-        background-color: #48ADF1;
-        color: white;
-        border: 2px solid #48ADF1;
-        margin-left: 50px;
+    .conteiner{
+        width: 70%;
+        height: 30px;
+        margin: auto;
     }
 
-    .buttonsection{
+    main{
         background-color: white;
-        color: rgb(191, 191, 191);
-        border: 2px solid rgb(191, 191, 191);
+        margin-top: 50px;
+        border-radius: 10px;
     }
 
+        /* PULSANTI */
 
-        /* ETICHETTE */
-
-        h2{
-            margin-top: 25px;
-            margin-bottom: -5px;
-            font-family: 'Open Sans', sans-serif;
-            color: #444851;
+        .button{
+            padding: 5px 9px 5px 9px;
+            border-radius: 5px;
+            margin-top: 16px;
+            margin-bottom: 10px;
         }
 
-        ul {
-            list-style-type: none;
-            margin-top: 0px;
-            padding-bottom: 25px;
-          }
-
-        li{
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-family: 'Open Sans', sans-serif;
-        }
-        
-        .check{
-            color: rgb(1, 184, 1);
-            border: 1px solid rgb(1, 184, 1);
-            border-radius: 100%;
-            padding: 0px 3px 0px 3px;
-            font-size: 13px;
-        }
-
-        .cross{
-            color: red;
-            border: 1px solid red;
-            border-radius: 100%;
-            padding: 0px 4px 0px 4px;
-            font-size: 13px;
-        }
-
-        .etichetta{
-            font-size: 11px;
-            font-family: 'Open Sans', sans-serif;
-            border: 1px solid;
-            border-radius: 10px;
-            padding: 6px 8px;
+        .buttontask{
+            background-color: #48ADF1;
             color: white;
+            border: 2px solid #48ADF1;
+            margin-left: 50px;
         }
 
-        .editorial{
-            background-color: #45ABEA;
-            border: #45ABEA;
+        .buttonsection{
+            background-color: white;
+            color: rgb(210, 210, 210);
+            border: 2px solid rgb(210, 210, 210);
         }
 
-        .q1{
-            background-color: #9C72E4;
-            border: #9C72E4;
-        }
 
-        .recruiting{
-            background-color: #60BEA7;
-            border: #60BEA7;
-        }
+            /* LISTA */
 
-        .mobile{
-            background-color: #F29E33;
-            border: #F29E33;
-        }
+            ul {
+                list-style-type: none;
+                margin-top: 0px;
+                padding-bottom: 25px;
+            }
 
-        .website{
-            background-color: #D763A1;
-            border: #D763A1;
-        }
+            li{
+                padding-top: 8px;
+                padding-bottom: 8px;
+                font-family: 'Open Sans', sans-serif;
+            }
 
-        .sales{
-            background-color: #B0C925;
-            border: #B0C925;
-        }
+            h2{
+                margin-top: 25px;
+                margin-bottom: 5px;
+                font-family: 'Open Sans', sans-serif;
+                color: #444851;
+            }
+
+            .li-title{
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+            .li-align{
+                vertical-align: middle;
+                padding-right: 3px;
+            }
+            
+            .check{
+                font-size: 13px;
+                vertical-align: middle;
+                color: rgb(1, 184, 1);
+                border: 1px solid rgb(1, 184, 1);
+                border-radius: 100%;
+                padding: 0px 3px 0px 3px;
+                margin: 0px 5px 0px 2px;
+            }
+
+            .cross{
+                font-size: 13px;
+                vertical-align: middle;
+                color: red;
+                border: 1px solid red;
+                border-radius: 100%;
+                padding: 0px 4px 0px 4px;
+                margin: 0px 5px 0px 2px;
+            }
+
+
+                /* ETICHETTE */
+
+                .etichetta{
+                    display: inline-block;
+                    font-size: 11px;
+                    font-family: 'Open Sans', sans-serif;
+                    border: 1px solid;
+                    border-radius: 10px;
+                    padding: 6px 10px;
+                    color: white;
+                }
+
+                    .editorial{
+                        background-color: #45ABEA;
+                        border: #45ABEA;
+                    }
+
+                    .q1{
+                        background-color: #9C72E4;
+                        border: #9C72E4;
+                    }
+
+                    .recruiting{
+                        background-color: #60BEA7;
+                        border: #60BEA7;
+                    }
+
+                    .mobile{
+                        background-color: #F29E33;
+                        border: #F29E33;
+                    }
+
+                    .website{
+                        background-color: #D763A1;
+                        border: #D763A1;
+                    }
+
+                    .sales{
+                        background-color: #B0C925;
+                        border: #B0C925;
+                    }
